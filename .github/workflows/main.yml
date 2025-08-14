@@ -29,8 +29,8 @@ jobs:
         run: |
           ssh ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
             cd ~/python_app
-        sudo apt-get update
-        sudo apt-get install docker-compose # For Debian/Ubuntu
+            sudo apt-get update
+            sudo apt-get install docker-compose # For Debian/Ubuntu
         # Or for other distributions like CentOS:
         # sudo yum install docker-compose
             docker-compose down

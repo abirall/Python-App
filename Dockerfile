@@ -13,5 +13,6 @@ COPY . .
 # Expose Flask default port
 EXPOSE 5000
 
-# Run the app
+# Run the apps
 CMD ["python", "app.py"]
+

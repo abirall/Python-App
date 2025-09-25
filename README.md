@@ -13,7 +13,7 @@ Automate deployments using GitHub Actions
 
 Run the app on AWS EC2
 
-📌 Tech Stack
+📌 Tech Stack,,
 
 Python + Flask (web framework)
 
